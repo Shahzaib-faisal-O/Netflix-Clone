@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+body {
+    background: #000;
+    font-family: "poppins";
+}
+
+.main {
+    height: 90vh;
+    height: 102vh;
+    background-image: url("./Material/Background.jpg");
+    background-position: center center;
+    /* background-size: cover; */
+    background-size: max(1220px 100vw);
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.main .box {
+    position: absolute;
+    top: 0;
+    height: 90vh;
+    height: 102vh;
+    width: 100%;
+    opacity: 0.44;
+    background: #000;
+    /* color: white; */
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 62px;
+
+}
+
+nav img {
+    width: 123px;
+    position: relative;
+    z-index: 1;
+}
+
+nav button {
+    position: relative;
+    z-index: 1;
+    color: white;
+    background: maroon;
+    padding: 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    margin: 4px;
+}
+
+nav button:hover {
+    background: rgb(161, 0, 0);
+    border: 2px solid white;
+}
+
+.text {
+    height: 100%;
+    position: relative;
+    max-width: 50vw;
+    margin: auto;
+    color: white;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    z-index: 1;
+    flex-direction: column;
+    gap: 12PX;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.text h1 {
+    /* font-weight: normal; */
+    font-size: 31px;
+}
+
+.text h2 {
+    font-size: 24px;
+}
+
+.text input {
+    /* width: 100%; */
+    color: inherit;
+    background-color: black;
+    filter: opacity(0.7);
+    padding: 12px 23px;
+    min-height: 16px;
+    min-width: 16px;
+    line-height: 1.5;
+    border: 0px solid transparent;
+    text-decoration: inherit;
+    text-transform: inherit;
+    margin: 0px 10px;
+    font-size: 0.8rem;
+}
+
+.text input:hover {
+    border: 2px solid silver;
+}
+
+.text button {
+    padding: 18px 40px;
+    background: maroon;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.text button:hover {
+    background: rgb(155, 0, 0);
+}
+
+/* ------------------------------------------------------------------------------ */
+hr {
+    height: 4px;
+    background: rgb(80, 80, 80);
+    opacity: 0.9px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    gap: 12px;
+}
+
+.first h1 {
+    font-size: 53px;
+    margin: 22px 0px;
+}
+
+.tv {
+    position: relative;
+}
+
+.tv img {
+    width: 37vw;
+    position: relative;
+    z-index: 1;
+}
+
+.tv video {
+    width: 345px;
+    position: absolute;
+    top: 73px;
+    right: 66px;
+}
+
+/* .second{
+    height: 41vw;
+} */
+.second h1 {
+    font-size: 33px;
+}
+
+.second img {
+    width: 544px;
+}
+
+.question {
+    padding: 19px;
+    color: white;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; */
+    /* max-width: 80vw;
+    margin: auto;
+    gap: 22px; */
+}
+.question h1,h3{
+    text-align: center;
+}
+
+.question .box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex-direction: column; */
+    max-width: 50vw;
+    /* height: 60px; */
+    margin:  23px auto;
+    /* border: 3px solid red; */
+    border-radius: 6px;
+    gap: 12px;
+    background-color: rgb(45,45,45);
+    padding: 24px;
+    opacity: 0.4;
+    transition: all 1s ease-out;
+    /* font-size: 20px; */
+}
+/* .question .box span{
+    visibility: hidden;
+}
+.question .box span:hover{
+    visibility: visible;
+} */
+.question .box:hover{
+    background: #5e5e5e;
+    cursor: pointer;
+}
+.question .text1{
+gap: 12px;
+display: flex;
+flex-direction: row;
+    /* padding: 2px; */
+    max-width: 50vw;
+    margin-top: 12px;
+}
+.text1 input{
+    background: #272727;
+    opacity: 0.2px;
+}
+footer{
+ display: grid; 
+ grid-template-columns: 1fr 1fr 1fr 1fr;  
+ color: white;
+ max-width: 60vw;
+ margin: auto; 
+}
+.grid{
+    display:flex ;
+    flex-direction: column;
+}
